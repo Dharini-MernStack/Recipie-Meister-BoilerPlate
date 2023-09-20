@@ -117,9 +117,7 @@ The Text component simply renders a textarea element as per the design specifica
 The onChange event listener on the textarea should invoke a function in the onUpdate prop to pass data up to the AddRecipe component where this is used
 Before passing data to the onUpdate function, all carriage returns in the text should be converted to \n\n so it renders correctly. This can be done using
  evt.target.value.replace(/(?:\r)/g, "\n\n")
- 
-
- # Design Specifications
+ # Design Specification
  ![image](https://github.com/Dharini-MernStack/Recipie-Meister-BoilerPlate/assets/76996610/3909b2cd-b951-4916-a071-47d073d195d6)
  ![image](https://github.com/Dharini-MernStack/Recipie-Meister-BoilerPlate/assets/76996610/0046e23a-8baa-4b2f-b07b-3678b2bd370e)
  ![image](https://github.com/Dharini-MernStack/Recipie-Meister-BoilerPlate/assets/76996610/b393c68e-e340-4e56-a64d-3cc894bec919)
